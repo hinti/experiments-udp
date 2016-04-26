@@ -9,7 +9,7 @@ import java.util.zip.Checksum;
 
 public class Transmitter {
 
-    private static final int DEFAULT_PAYLOAD_SIZE_IN_BYTES = 25; // prevents fragmentation
+    private static final int DEFAULT_PAYLOAD_SIZE_IN_BYTES = 512; // prevents fragmentation
     private static final int DEFAULT_SERVER_PORT = 12345;
     private static final String DEFAULT_SERVER = "127.0.0.1";
     private static final int SEQ_NO_BYTES = 4;

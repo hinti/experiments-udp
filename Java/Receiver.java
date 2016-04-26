@@ -12,7 +12,7 @@ import java.util.zip.Checksum;
 
 public class Receiver {
 
-    private static final int DEFAULT_PAYLOAD_SIZE_IN_BYTES = 25; // prevent fragmentation
+    private static final int DEFAULT_PAYLOAD_SIZE_IN_BYTES = 512; // prevent fragmentation
     private static final int DEFAULT_PORT = 12345;
 
     private final int payloadSize;
