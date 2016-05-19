@@ -1,4 +1,4 @@
 # experiments-udp
-Implements some TCP features in UDP. 
 
-TODO
+Experimenting with the UDP protocol.
+
